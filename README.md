@@ -304,10 +304,22 @@ Total time: 40 seconds
 </VirtualHost>
 ```
 
-```# systemctl restart httpd```
+`# systemctl restart httpd`
 
 
 # Other Software Configuration
+
+PHP install.
+
+`# yum -y install php php-devel php-pdo php-mbstring php-pear`
+
+Simple samlphp download.
+
+```shell
+# cd /opt/
+# wget -O simplesaml.tar.gz https://simplesamlphp.org/download?latest
+# tar zxvf simplesaml.tar.gz
+```
 
 ```shell
 # cd /opt/jetty-dist/
@@ -324,4 +336,7 @@ Total time: 40 seconds
 
 
 
+
 [github link](https://github.com/ConsortiumGARR/idem-tutorials/blob/master/idem-fedops/HOWTO-Shibboleth/Identity%20Provider/CentOS/HOWTO%20Install%20and%20Configure%20a%20Shibboleth%20IdP%20v3.4.x%20on%20CentOS%207%20with%20Apache2%20%2B%20Jetty9.md)
+
+[blog link](http://hirosanote.hatenablog.jp/entry/2018/09/18/192658)
