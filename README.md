@@ -340,3 +340,5 @@ Simple samlphp download.
 [github link](https://github.com/ConsortiumGARR/idem-tutorials/blob/master/idem-fedops/HOWTO-Shibboleth/Identity%20Provider/CentOS/HOWTO%20Install%20and%20Configure%20a%20Shibboleth%20IdP%20v3.4.x%20on%20CentOS%207%20with%20Apache2%20%2B%20Jetty9.md)
 
 [blog link](http://hirosanote.hatenablog.jp/entry/2018/09/18/192658)
+
+[more blog link](http://secure.nanako-net.info/redmine/projects/know-how/wiki/Wiki)
